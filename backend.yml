@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: mohdvahaz/ecommerce-plt:backend-a640467
+          image: mohdvahaz/ecommerce-plt:backend-1d5642e
           imagePullPolicy: Always
           ports:
             - containerPort: 3001
