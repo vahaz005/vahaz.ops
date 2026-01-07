@@ -18,9 +18,7 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
-          env:
-            - name: BACKEND_URL
-              value: "http://backend-service:3001"
+          
 
 
 apiVersion: v1
