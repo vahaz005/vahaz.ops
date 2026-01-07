@@ -14,15 +14,13 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: mohdvahaz/ecommerce-plt:frontend-<TAG>
+          image: mohdvahaz/ecommerce-plt:frontend-a640467
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
           
 
 ---
-
-
 apiVersion: v1
 kind: Service
 metadata:
